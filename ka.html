@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加入我们的微信群</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'PingFang SC', 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            position: relative;
+            padding-bottom: 30px;
+        }
+        
+        .header {
+            background: linear-gradient(90deg, #08a0f7 0%, #1a73e8 100%);
+            color: white;
+            padding: 25px 20px;
+            position: relative;
+        }
+        
+        .header h1 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .qr-container {
+            padding: 25px;
+            margin: 0 auto;
+            max-width: 280px;
+        }
+        
+        .qr-code {
+            border: 1px solid #eee;
+            border-radius: 12px;
+            padding: 15px;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .qr-code img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .instructions {
+            padding: 0 25px;
+            color: #555;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-top: 15px;
+        }
+        
+        .steps {
+            text-align: left;
+            margin-top: 20px;
+            padding: 0 15px;
+        }
+        
+        .step {
+            display: flex;
+            margin-bottom: 15px;
+            align-items: center;
+        }
+        
+        .step-number {
+            background-color: #1a73e8;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+        
+        .footer {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #999;
+        }
+        
+        .wechat-icon {
+            position: absolute;
+            top: -20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .wechat-icon img {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="wechat-icon">
+                <img src="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico" alt="微信图标">
+            </div>
+            <h1>30天充值卡补偿发放</h1>
+            <p>扫描下方二维码领取</p>
+        </div>
+        
+        <div class="qr-container">
+            <div class="qr-code">
+                <!-- 替换为你的微信群二维码图片 -->
+                <img src="https://via.placeholder.com/250x250.png?text=微信群二维码" alt="微信群二维码">
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <p>二维码7天内有效，请及时领取</p>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div>打开微信，点击右上角"+"</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div>选择"扫一扫"功能</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div>扫描上方二维码</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div>点击"加入群聊"</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            ©2025 由快狗技术支持
+        </div>
+    </div>
+</body>
+</html>
